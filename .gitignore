@@ -31,3 +31,60 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Archivos de compilación de Maven
+target/
+
+# Archivos de configuración de Eclipse y otros IDEs
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del entorno
+.env
+*.env
+
+# Archivos de registro
+*.log
+
+# Archivos de metadatos de IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# Archivos generados por Maven
+mvnw
+mvnw.cmd
+.mvn/
+
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos específicos de Spring Boot
+# (Nota: Es importante no ignorar application.properties o application.yml si contienen configuraciones no sensibles.
+# Si contienen información sensible, considera usar variables de entorno o una herramienta de gestión de secretos)
+application-*.properties
+application-*.yml
+
+# Ignorar las dependencias descargadas por Maven
+dependency-reduced-pom.xml
+release.properties
+
+# Ignorar archivos temporales y de respaldo
+*.swp
+*.bak
+*.tmp
+*.old
+
+# Ignorar archivos generados por logs
+logs/
+
+# Directorios de caché
+.cache/
